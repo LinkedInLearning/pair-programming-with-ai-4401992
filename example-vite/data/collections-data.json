@@ -1,0 +1,372 @@
+{
+  "collections": [
+    {
+      "name": "Binaryville",
+      "className": "binaryville",
+      "header": {
+        "logo": {
+          "root": "logo-Binaryville",
+          "src": "images/logo-Binaryville.svg",
+          "width": 180,
+          "height": 94,
+          "alt": "Logo of Binaryville"
+        },
+        "title": "Explore Binaryville",
+        "button": {
+          "text": "See all characters",
+          "href": "Characters-by-Collection.html"
+        }
+      },
+      "charList": [
+        {
+          "name": "Delores",
+          "title": "Forensic Accountant",
+          "dataFullImg": "images/characters/Binaryville-Delores.svg",
+          "avatar": {
+            "root": "avatar-Binaryville-Delores",
+            "src": "images/characters/avatar-Binaryville-Delores.png",
+            "srcSet": "images/characters/avatar-Binaryville-Delores.png 1x, images/characters/avatar-Binaryville-Delores.svg 2x",
+            "width": 200,
+            "height": 200,
+            "alt": "Avatar of Delores"
+          },
+          "desc": "Dolores robot is a computational genius who performs calculations for various Binaryville businesses and organizations. In her spare time, Dolores has been noodling on the creation of the perfect web browser that will make all other browsers obsolete. We&quot;re rooting for you, Dolores!",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Rex",
+          "title": "Mayor of Binaryville",
+          "dataFullImg": "images/characters/Binaryville-Rex.svg",
+          "avatar": {
+            "root": "avatar-Binaryville-Rex",
+            "src": "images/characters/avatar-Binaryville-Rex.png",
+            "srcSet": "images/characters/avatar-Binaryville-Rex.png 1x, images/characters/avatar-Binaryville-Rex.svg 2x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Rex"
+          },
+          "desc": "Rex is the Mayor of Binaryville and a well-loved personality in town. He rose to robotdom from a microprocessor plant on the south side of town, where many famous and influential robots before him were conceived.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Fred",
+          "title": "Prototypical Engineer",
+          "dataFullImg": "images/characters/Binaryville-Fred.svg",
+          "avatar": {
+            "root": "avatar-Binaryville-Fred",
+            "src": "images/characters/avatar-Binaryville-Fred.png",
+            "srcSet": "images/characters/avatar-Binaryville-Fred.png 1x, images/characters/avatar-Binaryville-Fred.svg 2x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Fred"
+          },
+          "desc": "Fred is inquisitive and creative, and always conjuring up ways to improve Binaryville and the lives of its inhabitants. He&quot;s been at the forefront of many inventions, but has a special affinity for improving the world through alternative energy and green living. Fred&quot;s engineering collaborations with the City of Binaryville have helped the city reduce its energy consumption year over year, and he&quot;s twice been awarded the highly coveted Binaryville Medallion of Honor.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Bubbles",
+          "title": "Weather Forecaster",
+          "dataFullImg": "images/characters/Binaryville-Bubbles.svg",
+          "avatar": {
+            "root": "avatar-Binaryville-Bubbles",
+            "src": "images/characters/avatar-Binaryville-Bubbles.png",
+            "srcSet": "images/characters/avatar-Binaryville-Bubbles.png 1x, images/characters/avatar-Binaryville-Bubbles.svg 2x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Bubbles"
+          },
+          "desc": "Bubbles is a robot who loves the weather and is always happy to share her predictions with the citizens of Binaryville. She&quot;s been known to predict the weather with 100% accuracy and is also an avid kite flyer. Bubbles is also an advocate of the environment and encourages Binaryville to reduce its energy consumption and carbon footprint.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lil Monsters",
+      "className": "lil-monsters",
+      "header": {
+        "logo": {
+          "root": "logo-Lil-Monsters",
+          "src": "images/logo-Lil-Monsters.svg",
+          "width": 180,
+          "height": 36,
+          "alt": "Logo of Lil Monsters"
+        },
+        "title": "Explore Lil Monsters",
+        "button": {
+          "text": "See all characters",
+          "href": "Characters-by-Collection.html"
+        }
+      },
+      "charList": [
+        {
+          "name": "Blade",
+          "title": "Mobile App Developer",
+          "dataFullImg": "images/characters/Lil-Monsters-Blade.svg",
+          "avatar": {
+            "root": "avatar-Lil-Monsters-Blade",
+            "src": "images/characters/avatar-Lil-Monsters-Blade.png",
+            "srcSet": "images/characters/avatar-Lil-Monsters-Blade.png 1x, images/characters/avatar-Lil-Monsters-Blade@2x.png 2x, images/characters/avatar-Lil-Monsters-Blade@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Blade"
+          },
+          "desc": "Blade freelances as a mobile app developer and has built some of the most popular Android and iOS apps used in modern monster society, including the award-winning Monster APPetite, which tracks calorie consumption and activity for the health-conscious monster. In his spare time, he competes in national agility contests with his border collie Winston.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Blade.html"
+          }
+        },
+        {
+          "name": "Mingle",
+          "title": "Senior Data Analyst",
+          "dataFullImg": "images/characters/Lil-Monsters-Mingle.svg",
+          "avatar": {
+            "root": "avatar-Lil-Monsters-Mingle",
+            "src": "images/characters/avatar-Lil-Monsters-Mingle.png",
+            "srcSet": "images/characters/avatar-Lil-Monsters-Mingle.png 1x, images/characters/avatar-Lil-Monsters-Mingle@2x.png 2x, images/characters/avatar-Lil-Monsters-Mingle@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Mingle"
+          },
+          "desc": "Mingle excels at doing twice the work in half the time, with pinpoint accuracy. These skills serve her well in her role as Senior Data Analyst for an international cloud computing company. She&quot;s also got a penchant for ballroom dance, line dancing, and pretty much any kind of activity that lets her groove to music.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Melville",
+          "title": "Senior Network Engineer",
+          "dataFullImg": "images/characters/Lil-Monsters-Melville.svg",
+          "avatar": {
+            "root": "avatar-Lil-Monsters-Melville",
+            "src": "images/characters/avatar-Lil-Monsters-Melville.png",
+            "srcSet": "images/characters/avatar-Lil-Monsters-Melville.png 1x, images/characters/avatar-Lil-Monsters-Melville@2x.png 2x, images/characters/avatar-Lil-Monsters-Melville@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Melville"
+          },
+          "desc": "Setting up computer networks has always come easily to Melville. In his role as Senior Network Engineer for Landon Hotel, Melville builds complex blueprints for communication networks, a task that requires enormous attention to detail and patience. When not at work, Melville chooses lesstaxing mental activities, like hiking, to unwind.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Yodel",
+          "title": "Singer, Performer",
+          "dataFullImg": "images/characters/Lil-Monsters-Yodel.svg",
+          "avatar": {
+            "root": "avatar-Lil-Monsters-Yodel",
+            "src": "images/characters/avatar-Lil-Monsters-Yodel.png",
+            "srcSet": "images/characters/avatar-Lil-Monsters-Yodel.png 1x, images/characters/avatar-Lil-Monsters-Yodel@2x.png 2x, images/characters/avatar-Lil-Monsters-Yodel@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Yodel"
+          },
+          "desc": "Yodel grew up in a family of singers and loud talkers and could never get a word in edgewise. Then his vast talent for yodeling emerged. Now he performs to adoring fans throughout the world, and always has the loudest voice at the dinner table. Incidentally, he&quot;s also a loud proponent of net neutrality, and spends countless hours moderating an internet forum devoted solely to that subject.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Stargazers",
+      "className": "stargazers",
+      "header": {
+        "logo": {
+          "root": "logo-Stargazers",
+          "src": "images/logo-Stargazers.svg",
+          "width": 180,
+          "height": 36,
+          "alt": "Logo of Stargazers"
+        },
+        "title": "Explore Stargazers",
+        "button": {
+          "text": "See all characters",
+          "href": "Characters-by-Collection.html"
+        }
+      },
+      "charList": [
+        {
+          "name": "Charmaine",
+          "title": "Olympian Water Poloist",
+          "dataFullImg": "images/characters/Stargazers-Charmaine.svg",
+          "avatar": {
+            "root": "avatar-Stargazers-Charmaine",
+            "src": "images/characters/avatar-Stargazers-Charmaine.png",
+            "srcSet": "images/characters/avatar-Stargazers-Charmaine.png 1x, images/characters/avatar-Stargazers-Charmaine@2x.png 2x, images/characters/avatar-Stargazers-Charmaine@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Charmaine"
+          },
+          "desc": "Charmaine loves fossils from every society and planet, and helping to piece together the stories they tell of an earlier time. Once completing university studies in paleontology with a minor in swimming arts, Charmaine immediately transitioned to working on the now-famous Dig of Pleoria.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Trisaphron",
+          "title": "Executive Director, Operations",
+          "dataFullImg": "images/characters/Stargazers-Trisaphron.svg",
+          "avatar": {
+            "root": "avatar-Stargazers-Trisaphron",
+            "src": "images/characters/avatar-Stargazers-Trisaphron.png",
+            "srcSet": "images/characters/avatar-Stargazers-Trisaphron.png 1x, images/characters/avatar-Stargazers-Trisaphron@2x.png 2x, images/characters/avatar-Stargazers-Trisaphron@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Trisaphron"
+          },
+          "desc": "Trisaphron earned a masters degree in practical operations from Omerania University after completing a bachelors of science in impractical mathematics. With a keen ability to watch and understand the nuances of cooperation among production robots, Trisaphron never hesitates to jump in and lend a hand or two or three to educate and improve procedures.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Gill",
+          "title": "Executive Director, Operations",
+          "dataFullImg": "images/characters/Stargazers-Gill.svg",
+          "avatar": {
+            "root": "avatar-Stargazers-Gill",
+            "src": "images/characters/avatar-Stargazers-Gill.png",
+            "srcSet": "images/characters/avatar-Stargazers-Gill.png 1x, images/characters/avatar-Stargazers-Gill@2x.png 2x, images/characters/avatar-Stargazers-Gill@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Gill"
+          },
+          "desc": "Gill carries on generations of tradition in his family as a hydrologist specializing in underground reservoirs of aquatic-based planetoids. Of note is his revolutionary studies in the adaptation and accumulation of life in estuaries and cenotes. He volunteers as an instructor in advanced swimming and walking to young Amphibians.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Mindigo",
+          "title": "Executive Director, Operations",
+          "dataFullImg": "images/characters/Stargazers-Mindigo.svg",
+          "avatar": {
+            "root": "avatar-Stargazers-Mindigo",
+            "src": "images/characters/avatar-Stargazers-Mindigo.png",
+            "srcSet": "images/characters/avatar-Stargazers-Mindigo.png 1x, images/characters/avatar-Stargazers-Mindigo@2x.png 2x, images/characters/avatar-Stargazers-Mindigo@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Mindigo"
+          },
+          "desc": "Transportation Technologist Mindigo earned the nickname “MindiGoGo” because of her tireless work in advanced travel and commodity conveyance. After earning a degree in transportation from Amethystopia’s premiere technical college, Mindigo quickly rolled up through company ranks from cargo hauler to conveyance savant. She is recipient of the coveted Presidential Medal of Moving Stuff.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tech Heroes",
+      "className": "tech-heroes",
+      "header": {
+        "logo": {
+          "root": "logo-Tech-Heroes",
+          "src": "images/logo-Tech-Heroes.svg",
+          "width": 180,
+          "height": 36,
+          "alt": "Logo of Tech Heroes"
+        },
+        "title": "Explore Tech Heroes",
+        "button": {
+          "text": "See all characters",
+          "href": "Characters-by-Collection.html"
+        }
+      },
+      "charList": [
+        {
+          "name": "Caped Coder",
+          "title": "Front End Web Developer",
+          "dataFullImg": "images/characters/Tech-Heroes-Caped-Coder.svg",
+          "avatar": {
+            "root": "avatar-Tech-Heroes-Caped-Coder",
+            "src": "images/characters/avatar-Tech-Heroes-Caped-Coder.png",
+            "srcSet": "images/characters/avatar-Tech-Heroes-Caped-Coder.png 1x, images/characters/avatar-Tech-Heroes-Caped-Coder@2x.png 2x, images/characters/avatar-Tech-Heroes-Caped-Coder@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of Caped Coder"
+          },
+          "desc": "Hildegard, with her generous heart and sage advice, is the mother bear to all the animals in the forest. When not actively counselling her community of wild misfits, she masquerades as the Caped Coder, saving the world from bad code.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "The ArchiTech",
+          "title": "Front End Web Developer",
+          "dataFullImg": "images/characters/Tech-Heroes-The-ArchiTech.svg",
+          "avatar": {
+            "root": "avatar-Tech-Heroes-The-ArchiTech",
+            "src": "images/characters/avatar-Tech-Heroes-The-ArchiTech.png",
+            "srcSet": "images/characters/avatar-Tech-Heroes-The-ArchiTech.png 1x, images/characters/avatar-Tech-Heroes-The-ArchiTech@2x.png 2x, images/characters/avatar-Tech-Heroes-The-ArchiTech@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of The ArchiTech"
+          },
+          "desc": "Computer security gnawing at you? Sounds like a job for the ArchiTech! This clever beaver will build a fortress of security around your computer system as meticulously as he builds dams.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "CloudMaster",
+          "title": "Front End Web Developer",
+          "dataFullImg": "images/characters/Tech-Heroes-CloudMaster.svg",
+          "avatar": {
+            "root": "avatar-Tech-Heroes-CloudMaster",
+            "src": "images/characters/avatar-Tech-Heroes-CloudMaster.png",
+            "srcSet": "images/characters/avatar-Tech-Heroes-CloudMaster.png 1x, images/characters/avatar-Tech-Heroes-CloudMaster@2x.png 2x, images/characters/avatar-Tech-Heroes-CloudMaster@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of CloudMaster"
+          },
+          "desc": "Owen, AKA the &quot;CloudMaster,&quot; soars above the technological skies offering cloud infrastructure support wherever it&quot;s needed. Owen also excels at standup comedy and is considered by many to be a real hoot.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        },
+        {
+          "name": "Commander Zoom",
+          "title": "Mobile Developer",
+          "dataFullImg": "images/characters/Tech-Heroes-Commander-Zoom.svg",
+          "avatar": {
+            "root": "avatar-Tech-Heroes-Commander-Zoom",
+            "src": "images/characters/avatar-Tech-Heroes-Commander-Zoom.png",
+            "srcSet": "images/characters/avatar-Tech-Heroes-Commander-Zoom.png 1x, images/characters/avatar-Tech-Heroes-Commander-Zoom@2x.png 2x, images/characters/avatar-Tech-Heroes-Commander-Zoom@3x.png 3x",
+            "width": "200",
+            "height": "200",
+            "alt": "Avatar of CloudMaster"
+          },
+          "desc": "Zoom is the Technivores&quot; foremost expert on mobile development and advocates for mobile-optimization and responsive design at every opportunity. Zoom is known for doing flybys and air stunts just for fun.",
+          "button": {
+            "text": "See bio and products",
+            "href": "Character-Detail-Delores.html"
+          }
+        }
+      ]
+    }
+  ]
+}

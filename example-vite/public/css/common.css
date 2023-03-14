@@ -1,0 +1,83 @@
+/*-----------------------------------------------------
+
+    Title :  Big Star Collectibles
+    Usage :  common styles
+    Edited:  2022-09-30
+
+-------------------------------------------------------
+
+
+/*  3.3. buttons
+------------------------------------------------------- */
+
+.button {
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.6rem;
+  height: 46px;
+  font-weight: 400;
+  font-size: 2rem;
+  text-decoration-line: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.button.lg {
+  font-weight: 700;
+  font-size: 2.2rem;
+  height: 60px;
+}
+
+/*  solid  */
+
+:where(.button).solid {
+  background-color: var(--color-background-static);
+}
+
+.button:is(:hover, :focus, .active).solid {
+  background-color: var(--color-background-hover);
+}
+
+/*  solid - gold  */
+
+.button.solid.gold {
+  --color-background-static: var(--color-gold);
+  --color-background-hover: #e5b244;
+  color: var(--color-dark);
+}
+
+/*  solid - white  */
+
+.button.solid.white {
+  --color-background-static: #fff;
+  --color-background-hover: #ebebeb;
+  color: var(--color-dark);
+}
+
+/*  bordered  */
+
+:where(.button).bordered {
+  background-color: transparent;
+}
+
+.button:is(:hover, :focus, .active).bordered {
+  background-color: var(--color-background-hover);
+}
+
+/*  bordered - grape  */
+
+:where(.button.bordered).grape {
+  --color-background-hover: var(--color-whitesmoke);
+  color: var(--color-grape);
+  border: 1px solid var(--color-grape);
+}
+
+/*  bordered - violet  */
+
+:where(.button.bordered).violet {
+  --color-background-hover: var(--color-whitesmoke);
+  color: var(--color-purpleviolet);
+  border: 1px solid var(--color-purpleviolet);
+}

@@ -1,0 +1,9 @@
+/* vesper-libre-regular - latin */
+@font-face {
+  font-family: 'Vesper Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''), url('./vesper-libre-v19-latin-regular.woff2') format('woff2'),
+    url('./vesper-libre-v19-latin-regular.woff') format('woff');
+}

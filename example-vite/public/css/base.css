@@ -1,0 +1,99 @@
+:root {
+  --dist-min-cont-edge: 20px;
+  --width-content: 1180px;
+  --width-gutter: 20px;
+  --padding-inline-center-content: max(
+    var(--dist-min-cont-edge),
+    (100% - var(--width-content)) / 2
+  );
+  --width-center-section: min(var(--width-content), 100% - var(--dist-min-cont-edge) * 2);
+  --color-body: hsl(0deg 0% 40%);
+  --color-gold: hsl(41deg 93% 66%);
+  --color-grape: hsl(288deg 41% 36%);
+  --color-purpleviolet: hsl(293deg 45% 39%);
+  --color-violet: hsl(259deg 61% 23%);
+  --color-dark: hsl(0deg 0% 10%);
+  --color-gray: hsl(0deg 0% 40%);
+  --color-silver: hsl(0deg 0% 60%);
+  --color-whitesmoke: hsl(0deg 0% 96%);
+  --color-heading: var(--color-dark);
+  --color-link-static: var(--color-purpleviolet);
+  --color-link-hover: var(--color-purpleviolet);
+  --color-danger: hsl(0deg 100% 40%);
+  --color-border: hsl(0deg 0% 80%);
+  --color-inactive: hsl(0deg 0% 46%);
+  --text-deco-line: underline;
+  --text-deco-color-static: transparent;
+  --text-deco-color-hover: currentcolor;
+  --color-link-background-hover: hsl(289deg 22% 90%);
+  --color-placeholder: hsl(0deg 0% 40%);
+  --font-body: Ubuntu, sans-serif;
+  --trans-dur: 250ms;
+}
+
+html,
+body {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Typography 
+  ------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Vesper Libre';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Vesper Libre Regular'), local('Vesper Libre-Regular'),
+    url(../fonts/VesperLibre-Regular.ttf) format('truetype');
+}
+
+body {
+  color: var(--color-body);
+  font-weight: 300;
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+  color: var(--color-heading);
+}
+
+a {
+  cursor: pointer;
+  color: var(--color-link-static);
+  text-decoration-thickness: 1px;
+  text-decoration-line: var(--text-deco-line);
+  text-decoration-color: var(--text-deco-color-static);
+  text-underline-offset: 0.138em;
+}
+
+a:is(:hover, :focus) {
+  color: var(--color-link-hover);
+  text-decoration-color: var(--text-deco-color-hover);
+  background-color: var(--color-link-background-hover);
+}
+
+::placeholder {
+  opacity: 1;
+  color: var(--color-placeholder);
+}
+
+/*  Accessibility
+  ------------------------------------------------------- */
+
+.visually-hidden {
+  position: absolute;
+  top: -5000px;
+  left: -5000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

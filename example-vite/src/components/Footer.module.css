@@ -1,0 +1,113 @@
+/*  8. content info
+------------------------------------------------------- */
+
+#continfo {
+  --color-link-background-hover: transparent;
+  position: relative;
+  margin-top: 100px;
+  padding: 44px var(--padding-inline-center-content) 46px;
+  background-color: #312d32;
+}
+
+#continfo nav {
+  --text-deco-line: none;
+  position: absolute;
+  top: 64px;
+  right: var(--padding-inline-center-content);
+}
+
+#continfo nav > ul {
+  --color-link-static: rgba(255, 255, 255, 0.6);
+  --color-link-hover: #fff;
+  display: flex;
+  column-gap: 51px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+#continfo > figure {
+  position: absolute;
+  top: 132px;
+  right: var(--padding-inline-center-content);
+}
+
+#continfo figcaption {
+  position: absolute;
+  left: -5000px;
+}
+
+#continfo figure > ul {
+  display: flex;
+  column-gap: 30px;
+}
+
+#continfo figure li > a {
+  /* social links */
+  display: flex;
+  opacity: 0.5;
+}
+
+#continfo figure li > a:is(:hover, :focus) {
+  opacity: 1;
+}
+
+#continfo > img {
+  display: block;
+  margin-bottom: 24px;
+}
+
+#continfo > p {
+  --color-link-static: #fff;
+  --color-link-hover: #fff;
+  --text-deco-color-static: currentcolor;
+  --text-deco-color-hover: transparent;
+  margin-right: 300px;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+#continfo p + p {
+  margin-top: 1.1rem;
+}
+
+/* responsive ( 991px)
+------------------------------------------------------- */
+
+@media (max-width: 991px) {
+  #continfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    padding-bottom: 54px;
+  }
+
+  #continfo nav {
+    position: static;
+    align-self: center;
+    order: 10;
+    width: min(336px, 100%);
+  }
+
+  #continfo nav > ul {
+    justify-content: space-between;
+    column-gap: 20px;
+    margin-top: 3.1rem;
+    font-size: 1.4rem;
+  }
+
+  #continfo > figure {
+    position: static;
+    align-self: center;
+    order: 11;
+    margin-top: 2.9rem;
+  }
+
+  #continfo > p {
+    margin-right: 0;
+    font-size: 1.2rem;
+  }
+
+  #continfo p + p {
+    margin-top: 1rem;
+  }
+}
