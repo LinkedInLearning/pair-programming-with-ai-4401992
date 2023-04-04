@@ -1,8 +1,9 @@
 # Pair Programming with AI
-
 This is the repository for the LinkedIn Learning course Pair Programming with AI. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Pair Programming with AI][lil-thumbnail-url] 
+
+If you’re a programmer, you’re probably curious (and maybe a little apprehensive) about what artificial intelligence can do for your work. In this course, Morten Rand-Hendriksen shows you how you can supercharge your software development with the help of an AI pair programmer. Morten shares practical strategies and hands-on practice on how to leverage AI tools like ChatGPT and GitHub Copilot to increase productivity and write better code. He demonstrates how to employ AI to address common tasks, how different AI tools differ, and offers an understanding of what is possible, how AI tools can fit into your work, and—importantly—where the current limits and guardrails are.
 
 ## Instructions
 
@@ -18,6 +19,16 @@ To run the build process for the react project:
 4. Type in `npm run dev` and press Enter.
    This starts the Vite build process and dev server.
 
-[0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+### Instructor
+
+Morten Rand-Hendriksen 
+                            
+Developer and Senior Staff Instructor
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/morten-rand-hendriksen).
+
+[lil-course-url]: https://www.linkedin.com/learning/pair-programming-with-ai?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGCKTEcnWobTw/learning-public-crop_675_1200/0/1680538574317?e=2147483647&v=beta&t=Ka3ojVZfB9oS8WDyiYtOnXQo-xd1AKkO3Nvnm5KzVYQ
+
